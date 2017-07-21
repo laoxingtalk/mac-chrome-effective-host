@@ -5,7 +5,9 @@
 - Navigate to chrome://net-internals/#sockets and click "Flush Socket Pools"
 
 每次切Host后还要手动这么来一下，很是奔溃。
+
 boreas320写了个AppleScript https://github.com/boreas320/chrome_hosts_flush_util 但是用不了。
+
 mac-chrome-effective-host 中 flush_chrome_sockets.applescript 是对 chrome_hosts_flush_util 的修改，使在Mac下修改了Host文件后Chrome能及时生效。
 
 ### mac-chrome-effective-host 如何使用:
